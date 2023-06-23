@@ -1,5 +1,5 @@
 <h1 align="center">
-    📚 Atlas
+    📚 Atlas 📚
 </h1>
 The official utility for retrieving information from Atlis (https://atlis.gg/) from anywhere on your Discord server.
 
