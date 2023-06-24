@@ -2,9 +2,8 @@
   "name": "atlas",
   "version": "1.0.0",
   "main": "src/index.ts",
-  "type": "commonjs",
   "scripts": {
-    "start": "node src/index.ts --experimental-modules",
+    "start": "ts-node src/index.ts",
     "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node src/index.ts\""
   },
   "license": "MIT",
