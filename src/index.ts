@@ -3,7 +3,8 @@
 ///////////////////////////////////////////////
 
 // Setup
-import 'dotenv/config';
+import dotenv from 'dotenv';
+dotenv.config();
 
 import fs from 'fs';
 
