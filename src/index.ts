@@ -22,7 +22,6 @@ import Discord, {
 } from 'discord.js';
 
 import replaceOptions from './utils/replaceOptions';
-import cleverbot from 'cleverbot-free';
 import path from 'path';
 
 import dayjs from "dayjs";
