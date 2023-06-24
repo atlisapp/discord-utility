@@ -19,5 +19,8 @@
     "duckduckgo-images-api": "^1.0.5",
     "js-base64": "^3.7.2",
     "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }
