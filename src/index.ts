@@ -3,8 +3,6 @@
 ///////////////////////////////////////////////
 
 // Setup
-import 'dotenv/config';
-
 import fs from 'fs';
 
 import { REST } from '@discordjs/rest';
