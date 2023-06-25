@@ -74,13 +74,5 @@ export default {
 				embeds: [embed]
 			});
 		});
-
-		collector.on('end', (collection: any) => {
-			try {
-				interaction.followUp('This help embed has been closed, sorry!');
-			} catch (err) {
-				console.log(err);
-			}
-		});
     }
 }

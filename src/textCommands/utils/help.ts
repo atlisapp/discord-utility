@@ -77,13 +77,5 @@ export default {
 				embeds: [embed]
 			});
 		});
-
-		collector.on('end', collection => {
-			try {
-				msg.reply('This help embed has been closed. Sorry!');
-			} catch(err) {
-				console.log(err);
-			}
-		});
 	}
 }

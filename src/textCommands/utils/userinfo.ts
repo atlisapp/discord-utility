@@ -24,13 +24,20 @@ export default {
         
             const getBadgeEmojis = () => {
                 let badges = '';
+                const dataBadges = res.data.badges;
 
-                if(res.data.admin)
-                    badges + `${client.emojis.cache.find(e => e.name === 'staff')} `;
-                if(res.data.premium)
-                    badges + `${client.emojis.cache.find(e => e.name === 'premium')} `;
-                if(res.data.support)
-                       badges + `${client.emojis.cache.find(e => e.name === 'earlysupporter')} `;
+                if(dataBadges.admin)
+                    badges + `${client.emojis.cache.find(e => e.name === 'staff')}`;
+                if(dataBadges.premium)
+                    badges + `${client.emojis.cache.find(e => e.name === 'premium')}`;
+                if(dataBadges.support)
+                    badges + `${client.emojis.cache.find(e => e.name === 'earlysupporter')}`;
+
+                switch(dataBadges) {
+                    case dataBadges.includes('TEST'):
+                        badges + '😊 ';
+                        break;
+                }
 
                 return badges;
             }
