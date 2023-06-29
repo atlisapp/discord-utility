@@ -265,7 +265,7 @@ try {
                 status: 'online'
             });
     
-            await message.reply('> 👋 Restarting bot...');
+            await message.reply('👋 Restarting bot...');
             fs.utimesSync(__filename, new Date(), new Date());
     
             return;
